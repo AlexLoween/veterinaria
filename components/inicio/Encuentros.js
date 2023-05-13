@@ -2,33 +2,32 @@ import Image from "next/image";
 
 export default function Encuentros() {
   return (
-    <div className="flex items-center justify-center px-8 py-8 mx-8 bg-red-300 shadow-2xl rounded-3xl">
-      <div className="flex flex-col items-center gap-8 sm:flex-row md:flex-row">
+    <div className="flex items-center justify-center px-8 py-8 bg-red-100">
+      <div className="flex flex-col items-center gap-16 sm:flex-row md:flex-row">
         <div className="flex flex-col items-center">
           <h1 className="text-2xl text-left text-black md:text-center text-apple-system md:text-3xl">
-            Encuentros
+            Certificados
           </h1>
 
           <p className="max-w-xl mx-auto mt-8 text-justify">
-            Mientras que las Hacker House son efectivas caso por caso, los
-            encuentros proporcionan un entorno regular para que las mujeres
-            establezcan contactos y se capaciten mutuamente. El contenido varía
-            desde formatos de incorporación hasta profundizaciones técnicas y
-            orientadas a la investigación, así como sesiones de presentación y
-            emparejamiento abiertas. La necesidad de crear puntos de encuentro
-            centrado en las mujeres está validada y además de la alta tasa de
-            interés, porque se necesita un enfoque estructurado para otorgar y
-            facilitar el apoyo a las mujeres en el ecosistema blockchain.
+            ¡Nuestro servicio de certificados veterinarios a domicilio es lo más
+            conveniente! Olvídate de hacer filas y de perder tiempo valioso.
+            ¡Nuestro equipo de expertos viene a tu casa para ofrecerte
+            certificaciones de vacunas, permisos de viaje y mucho más! ¿Tienes
+            una mascota activa o tienes un horario ocupado? ¡No hay problema!
+            Programa una cita con nosotros y nosotros nos encargamos del resto.
+            ¡Obtén los documentos importantes que necesitas para tu mascota sin
+            salir de tu hogar!
           </p>
         </div>
 
         <div className="flex flex-col-reverse md:flex-row">
           <Image
-            src="/experiencia.jpg"
+            src="/certificados.jpg"
             alt=""
             width={500}
             height={500}
-            className="max-w-full"
+            className="max-w-full rounded-3xl"
           />
         </div>
       </div>

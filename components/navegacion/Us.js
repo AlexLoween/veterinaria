@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 export default function Ust() {
   const router = useRouter();
-  const ROUTE = "/nosotras";
+  const ROUTE = "/servicios";
   const isActive = router.asPath == ROUTE;
 
   return (
@@ -13,9 +13,9 @@ export default function Ust() {
     >
       <button
         type="button"
-        className="font-mono transition transform  text-ml hover:text-red-300/75"
+        className="font-mono transition transform text-ml hover:text-red-300/75"
       >
-        NOSOTRAS
+        SERVICIOS
       </button>
     </Link>
   );

@@ -22,9 +22,6 @@ export default function Index() {
       <Actualidad />
       <House />
       <Encuentros />
-      <Participacion />
-      <Hackatones />
-      <Marketing />
       <Footer />
     </>
   );
