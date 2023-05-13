@@ -15,7 +15,7 @@ export default function House() {
         </div>
         <div>
           <h1 className="text-2xl text-left text-black md:text-center text-apple-system md:text-3xl">
-            Hacker House
+            Consulta
           </h1>
 
           <p className="max-w-xl mx-auto mt-8 text-justify">

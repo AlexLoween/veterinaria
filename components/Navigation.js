@@ -28,13 +28,13 @@ export default function Navigation() {
 
   return (
     <Fragment>
-      <nav className="sticky top-0 z-10 flex justify-between w-full p-2 px-10 my-1 bg-white rounded-3xl md:items-center">
+      <nav className="sticky top-0 z-10 flex justify-between w-full p-2 px-10 my-1 bg-cyan-100 rounded-3xl md:items-center">
         <Link className="flex w-full sm:items-center sm:h-full" href="/">
           <Image
-            src="/logoherdao.png"
+            src="/logo.png"
             alt=""
-            width={120}
-            height={120}
+            width={200}
+            height={200}
             className=""
           />
         </Link>

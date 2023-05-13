@@ -12,14 +12,14 @@ export default function Herdaospain() {
         <div className="flex flex-col items-center sm:flex-row md:flex-row">
           <div className="flex flex-col items-center w-full">
             <h1 className="text-2xl text-left text-black md:text-center text-apple-system md:text-3xl">
-              Sobre nosotras
+              Veterinaria a domicilio
             </h1>
 
             <p className="max-w-2xl mx-auto mt-8 text-justify">
-              H.E.R. DAO Spain es una iniciativa que nace con el objetivo de
-              abrir las puertas de la innovación y la tecnología blockchain a
-              mujeres y personas no binarias. Pretende construir un futuro
-              inclusivo, en el que todas tengamos lugar.
+            Porque la salud de tu mascota es nuestra pioridad, confia en nosotros
+            </p>
+            <p className="max-w-2xl mx-auto mt-1 text-justify">
+            Veterinaria Estela.
             </p>
           </div>
         </div>

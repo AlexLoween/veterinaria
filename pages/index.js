@@ -16,11 +16,9 @@ import Mision from "@/components/nosotras/Mision";
 export default function Index() {
   return (
     <>
-      <Banner />
       <Navigation />
       <Stage />
       <About />
-      <Mision />
       <Actualidad />
       <House />
       <Encuentros />
