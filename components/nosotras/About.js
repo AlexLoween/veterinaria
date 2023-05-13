@@ -1,18 +1,12 @@
-import Image from "next/image";
-import Navigation from "@/components/Navigation";
-import Footer from "@/components/Footer";
-import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa";
-import Banner from "@/components/Banner";
-import Mandatos from "../comunidad/Mandatos";
-import Herdaospain from "./Herdaospain";
 
+import Descripcion from "../comunidad/Descripcion";
+import Especialidades from "./Especialidades";
 export default function About() {
   return (
     <>
-      <Herdaospain />
+      <Especialidades />
       <div className="flex items-center justify-center bg-white shadow-2xl">
-        <Mandatos />
+        <Descripcion />
       </div>
     </>
   );

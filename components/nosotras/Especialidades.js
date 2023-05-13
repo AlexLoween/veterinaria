@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import Banner from "@/components/Banner";
 
-export default function Herdaospain() {
+export default function Especialidades() {
   return (
     <>
       <div className="flex items-center justify-center px-4 py-8 bg-red-100 shadow-2xl ">
