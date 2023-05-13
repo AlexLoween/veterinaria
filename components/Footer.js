@@ -24,7 +24,7 @@ export default function Footer() {
               <div className="justify-between sm:flex sm:text-center">
                 <Link className="w-full pb-4 md:w-1/3 lg:w-1/4" href="/inicio">
                   <Image
-                    src="/logo.png"
+                    src="/logos.png"
                     alt=""
                     width={100}
                     height={100}

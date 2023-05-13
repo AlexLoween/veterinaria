@@ -19,22 +19,18 @@ export default function Navigation() {
     <Fragment>
       <Start />
       <Us />
-      <Events />
-      <News />
-      <Community />
-      <Scholarships />
     </Fragment>
   );
 
   return (
     <Fragment>
-      <nav className="sticky top-0 z-10 flex justify-between w-full p-2 px-10 my-1 bg-cyan-100 rounded-3xl md:items-center">
+      <nav className="sticky top-0 z-10 flex justify-between w-full p-2 px-8 py-4 bg-cyan-100 rounded-b-2xl md:items-center">
         <Link className="flex w-full sm:items-center sm:h-full" href="/">
           <Image
-            src="/logo.png"
+            src="/logos.png"
             alt=""
-            width={200}
-            height={200}
+            width={150}
+            height={150}
             className=""
           />
         </Link>
