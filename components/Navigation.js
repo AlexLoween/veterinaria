@@ -19,6 +19,7 @@ export default function Navigation() {
     <Fragment>
       <Start />
       <Us />
+      <News />
     </Fragment>
   );
 
