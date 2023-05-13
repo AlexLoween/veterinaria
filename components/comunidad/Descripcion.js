@@ -9,7 +9,7 @@ export default function Descripcion() {
         <h1 className="text-4xl text-center text-black text-apple-system">
           Todas las especialidades
         </h1>
-        <div className="flex flex-col items-start justify-center md:gap-8 md:flex-row md:justify-center ">
+        <div className="flex flex-col items-center justify-center md:gap-8 md:flex-row md:justify-center ">
           <div className="max-w-sm mx-auto mb-6 md:mb-0">
             <Inclusion />
           </div>
