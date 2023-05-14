@@ -8,11 +8,11 @@ export default function Contacto() {
       <Navigation />
       <section className="pb-32 bg-center bg-cover">
         <div className="max-w-xl mx-auto mt-16">
-          <h1 className="pl-8 pr-8 text-2xl font-bold text-pink-300 md:text-3xl">
+          <h1 className="pl-8 pr-8 text-3xl font-bold text-pink-300 md:text-3xl">
             Como en casa en ningun sitio
           </h1>
 
-          <p className="pl-8 pr-8 mx-auto mt-8 text-gray-600">
+          <p className="pl-8 pr-8 mx-auto mt-8 text-2xl text-gray-600">
           Ofrecemos atención médica veterinaria en casa para evitar el estrés que causa llevar a la mascota a un entorno desconocido. Nuestra veterinaria está capacitada para realizar una amplia gama de procedimientos y brindamos una atención personalizada para cada mascota. Somos la mejor opción para aquellos dueños de mascotas que buscan atención médica de alta calidad sin estrés.
 
           </p>

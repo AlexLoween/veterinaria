@@ -86,14 +86,14 @@ export default function Footer() {
                   </Link>
                   <Link
                     className="text-sm text-gray-500 transition text-apple-system hover:text-red-700/75"
-                    href="mailto:hola@herdaospain.xyz"
+                    href="stelissanta30@gmail.com"
                   >
                     Contacto
                   </Link>
 
                   <Link
                     className="text-sm text-gray-500 transition text-apple-system hover:text-red-700/75"
-                    href="mailto:hola@herdaospain.xyz"
+                    href="stelissanta30@gmail.com"
                   ></Link>
                 </nav>
               </div>
