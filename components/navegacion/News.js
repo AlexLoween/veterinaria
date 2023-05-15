@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 export default function News() {
   const router = useRouter();
-  const ROUTE = "/contacto";
+  const ROUTE = "/cita";
   const isActive = router.asPath == ROUTE;
 
   return (
@@ -15,7 +15,7 @@ export default function News() {
         type="button"
         className="px-8 font-mono transition transform text-ml hover:text-red-300/75"
       >
-        CONTACTO
+        CITA
       </button>
     </Link>
   );

@@ -16,7 +16,7 @@ export default function Servicios() {
           <div className="flex flex-col justify-center lg:flex-row">
         <div className="p-4 border-gray-900/10 sm:border-l-transparent sm:p-6">
               <Link
-                href="contacto/"
+                href="cita/"
                 className="block px-5 py-3 text-xs font-bold text-center text-gray-900 uppercase transition bg-red-300 whitespace-nowrap hover:bg-red-400">
                 Consulta
               </Link>
@@ -31,7 +31,7 @@ export default function Servicios() {
           <div className="flex flex-col justify-center lg:flex-row">
             <div className="p-4 border-gray-900/10 sm:border-l-transparent sm:p-6">
               <Link
-                href="contacto/"
+                href="cita/"
                 className="block px-5 py-3 text-xs font-bold text-center text-gray-900 uppercase transition bg-red-300 whitespace-nowrap hover:bg-red-400"
               >
                 Vacunación
@@ -49,7 +49,7 @@ export default function Servicios() {
           <div className="flex flex-col justify-center lg:flex-row">
             <div className="p-4 border-gray-900/10 sm:border-l-transparent sm:p-6">
               <Link
-                href="/contacto"
+                href="cita/"
                 className="block px-5 py-3 text-xs font-bold text-center text-gray-900 uppercase transition bg-red-300 whitespace-nowrap hover:bg-red-400"
               >
                 Desparasitación
@@ -67,7 +67,7 @@ export default function Servicios() {
           <div className="flex flex-col justify-center lg:flex-row">
             <div className="p-4 border-gray-900/10 sm:border-l-transparent sm:p-6">
               <Link
-                href="contacto/"
+                href="cita/"
                 className="block px-5 py-3 text-xs font-bold text-center text-gray-900 uppercase transition bg-red-300 whitespace-nowrap hover:bg-red-400"
               >
                 Certificados
@@ -103,7 +103,7 @@ export default function Servicios() {
           <div className="flex flex-col justify-center lg:flex-row">
             <div className="p-4 border-gray-900/10 sm:border-l-transparent sm:p-6">
               <Link
-                href="contacto/"
+                href="cita/"
                 className="block px-5 py-3 text-xs font-bold text-center text-gray-900 uppercase transition bg-red-300 whitespace-nowrap hover:bg-red-400"
               >
                 Curas

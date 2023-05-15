@@ -13,7 +13,7 @@ export default function Start() {
     >
       <button
         type="button"
-        className="mx-8 font-mono transition transform text-ml hover:text-red-300/75"
+        className="px-8 font-mono transition transform text-ml hover:text-red-300/75"
       >
         INICIO
       </button>
