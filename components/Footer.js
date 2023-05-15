@@ -64,31 +64,31 @@ export default function Footer() {
                 </Link>
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-8 pt-8 pb-8 text-center sm:justify-center sm:text-left">
+            <div className="grid grid-cols-3 pt-8 pb-8 sm:justify-left sm:text-left">
               <div>
-                <strong className="font-medium text-black"> Soporte </strong>
+                <strong className="text-2xl font-medium text-black"> Contacto </strong>
 
                 <nav
                   aria-label="Footer Support Nav"
-                  className="flex flex-col mt-8 space-y-1"
+                  className="flex flex-col mt-10 space-y-3"
                 >
                   <Link
-                    className="text-sm text-gray-500 transition text-apple-system hover:text-red-700/75"
+                    className="text-xl text-gray-500 transition text-apple-system hover:text-red-700/75"
                     href="/"
                   >
-                    Preguntas frecuentes
+                    Ponte en contacto con VeterinariaStela®
                   </Link>
                   <Link
-                    className="text-sm text-gray-500 transition text-apple-system hover:text-red-700/75"
+                    className="text-xl text-gray-500 transition text-apple-system hover:text-red-700/75"
                     href="/"
                   >
-                    Equipo
+                    tlf: 653151156
                   </Link>
                   <Link
-                    className="text-sm text-gray-500 transition text-apple-system hover:text-red-700/75"
+                    className="text-xl text-gray-500 transition text-apple-system hover:text-red-700/75"
                     href="stelissanta30@gmail.com"
                   >
-                    Contacto
+                    stelissanta3@gmail.com
                   </Link>
 
                   <Link

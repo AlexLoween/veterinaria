@@ -1,36 +1,57 @@
-import Image from "next/image";
-
 export default function Marketing() {
   return (
-    <div className="flex items-center justify-center px-8 py-8 mx-8 shadow-2xl bg-zinc-100 rounded-3xl">
-      <div className="flex flex-col items-center gap-8 sm:flex-row md:flex-row">
-        <div className="flex flex-col items-center">
-          <Image
-            src="/hackatons.jpg"
-            alt=""
-            width={500}
-            height={500}
-            className="max-w-full"
-          />
-        </div>
-        <div>
-          <h1 className="text-2xl text-left text-black md:text-center text-apple-system md:text-3xl">
-            Marketing{" "}
-          </h1>
+      <div>
+        <section className="bg-gray-50">
+          <div className="p-8 ms:p-12 lg:px-16 lg:py-24">
+            <div className="max-w-lg mx-auto text-center">
+              <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+                Te llamamos
+              </h2>
 
-          <p className="max-w-xl mx-auto mt-8 text-justify">
-            Para el desarrollo de nuestra audiencia y comunidad de
-            desarrolladoras, llevaremos a cabo un programa integral de alcance
-            global que incluirá networking, conferencias y eventos comunitarios,
-            colaborando con otros proyectos. La creación y participación en
-            canales como Telegram, Discord y Twitter ayuda a generar más
-            atención y a facilitar la construcción de HER DAO. Los medios
-            promocionales (visuales) y las campañas basadas en actividades (por
-            ejemplo, POAPS como prueba de participación) son otros instrumentos
-            para ganar tracción y colectivización.
-          </p>
-        </div>
+              <p className="text-black sm:mt-4 sm:block">
+                Solicita tu cita para la atencion de tu mascota.
+              </p>
+            </div>
+
+            <div className="max-w-xl mx-auto mt-8">
+              <form action="#" className="sm:flex sm:gap-4">
+                <div className="sm:flex-1">
+                  <label for="movil" className="sr-only">
+                    telefono
+                  </label>
+
+                  <input
+                    type="telefono"
+                    placeholder="telefono"
+                    className="w-full p-3 text-gray-700 transition bg-white border-gray-200 rounded-md shadow-sm focus:border-white focus:outline-none focus:ring focus:ring-yellow-400"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="flex items-center justify-center w-full gap-2 px-5 py-3 mt-4 text-white transition rounded-md group bg-rose-500 focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                >
+                  <span className="text-sm font-medium"> enviar </span>
+
+                  <svg
+                    className="w-5 h-5 rtl:rotate-180"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
       </div>
-    </div>
   );
 }
